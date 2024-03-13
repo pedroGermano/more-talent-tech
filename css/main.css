@@ -17,14 +17,18 @@
 
 html {
   font-size: 62.5%;
-  font-family: "Roboto";
+}
+
+a {
+  text-decoration: none;
+  display: block;
 }
 
 .container {
   width: 100%;
   margin: 0 auto;
-  max-width: 76rem;
-  padding: 0 0.9375rem;
+  max-width: 121.6rem;
+  padding: 0 1.5rem;
 }
 
 h1 {
