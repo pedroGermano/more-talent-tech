@@ -1,6 +1,32 @@
+:root {
+  --black: #1c1c1f;
+  --gray: #606272;
+  --gray02: #989ba7;
+  --white: #fff;
+  --red: #f04264;
+  --yellow: #f7b40d;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   outline: none;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto";
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 76rem;
+  padding: 0 0.9375rem;
+}
+
+h1 {
+  color: var(--red);
 }/*# sourceMappingURL=main.css.map */
