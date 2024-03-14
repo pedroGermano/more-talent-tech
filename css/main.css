@@ -100,8 +100,15 @@ header .right ul {
   justify-content: space-between;
 }
 .s-hero .left {
+  position: relative;
   width: 100%;
   max-width: 54.4rem;
+  margin-top: 1.6rem;
+}
+.s-hero .left .star {
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 .s-hero .left h1 {
   position: relative;
@@ -119,9 +126,84 @@ header .right ul {
   height: 8px;
   background-color: var(--yellow);
   position: absolute;
-  bottom: 0;
+  bottom: 15px;
   left: 0;
   z-index: -1;
+}
+.s-hero .left p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 160%;
+  color: var(--gray);
+  margin-bottom: 4rem;
+}
+.s-hero .left form {
+  width: 100%;
+  max-width: 52rem;
+  height: 6.9rem;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 15px 30px -10px rgba(204, 206, 219, 0.4);
+  border-radius: 12.2rem;
+  margin-bottom: 5.6rem;
+  padding-left: 3.4rem;
+  padding-right: 1.5rem;
+}
+.s-hero .left form input {
+  flex: 1;
+  margin-right: 2rem;
+  border: none;
+  color: var(--black);
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 150%;
+  letter-spacing: -0.005em;
+  color: #989ba7;
+}
+.s-hero .left form input::-moz-placeholder {
+  color: var(--gray02);
+}
+.s-hero .left form input::placeholder {
+  color: var(--gray02);
+}
+.s-hero .left form button {
+  padding: 1.5rem 2.8rem;
+  border: none;
+  background-color: var(--black);
+  color: var(--white);
+  border-radius: 97.6rem;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: -0.01em;
+}
+.s-hero .left ul {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 6rem;
+}
+.s-hero .left .review {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.s-hero .left .review span {
+  display: flex;
+  align-items: center;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #666671;
+}
+.s-hero .left .review span img {
+  margin-right: 6px;
 }
 .s-hero .right {
   position: relative;
